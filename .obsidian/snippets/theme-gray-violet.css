@@ -1,0 +1,86 @@
+/* ===== 灰紫基础色 ===== */
+:root {
+  --gv-bg: #f3f1f7;
+  --gv-card: rgba(255, 255, 255, 0.72);
+  --gv-card-hover: rgba(255, 255, 255, 0.86);
+  --gv-border: rgba(130, 110, 160, 0.16);
+  --gv-text: #3d3747;
+  --gv-text-muted: #8a8396;
+  --gv-accent: #8b7aa8;
+  --gv-accent-soft: rgba(139, 122, 168, 0.12);
+  --gv-shadow: 0 8px 32px rgba(80, 60, 110, 0.08);
+  --gv-radius: 18px;
+}
+
+.theme-dark {
+  --gv-bg: #1c1a22;
+  --gv-card: rgba(38, 34, 48, 0.72);
+  --gv-card-hover: rgba(48, 43, 60, 0.82);
+  --gv-border: rgba(160, 140, 190, 0.18);
+  --gv-text: #e8e4f0;
+  --gv-text-muted: #9a92a8;
+  --gv-accent: #b8a6d4;
+  --gv-accent-soft: rgba(184, 166, 212, 0.14);
+  --gv-shadow: 0 8px 40px rgba(0, 0, 0, 0.28);
+}
+
+/* ===== 毛玻璃卡片 ===== */
+.gv-card {
+  background: var(--gv-card);
+  backdrop-filter: blur(18px) saturate(140%);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  border: 1px solid var(--gv-border);
+  border-radius: var(--gv-radius);
+  box-shadow: var(--gv-shadow);
+  padding: 18px 20px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.gv-card:hover {
+  background: var(--gv-card-hover);
+  transform: translateY(-1px);
+}
+
+/* ===== 首页仪表盘栅格 ===== */
+.gv-dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin: 16px 0;
+}
+
+/* ===== 色块 / 标签 ===== */
+.gv-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  background: var(--gv-accent-soft);
+  color: var(--gv-accent);
+  font-weight: 500;
+}
+
+.gv-pill.warm {
+  background: rgba(200, 150, 120, 0.14);
+  color: #a87558;
+}
+
+.gv-pill.cool {
+  background: rgba(110, 140, 180, 0.14);
+  color: #5f7fa6;
+}
+
+/* ===== 平台小色点 ===== */
+.gv-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.gv-dot.xhs { background: #ff2442; }
+.gv-dot.bili { background: #00aeec; }
+.gv-dot.douyin { background: #fe2c55; }
