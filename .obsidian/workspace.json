@@ -12,15 +12,11 @@
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "流水账日记.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "pinned": true,
               "icon": "lucide-file",
-              "title": "流水账日记"
+              "title": "新标签页"
             }
           }
         ]
@@ -204,11 +200,13 @@
   },
   "active": "e5276da8bef75cb9",
   "lastOpenFiles": [
-    "Diary/2026-11-02 《后会友期》也太搞笑了.md",
-    "Templates/new_diary.md",
     "流水账日记.md",
-    "Diary/2026-11-01.md",
+    "Diary/2026-11-02 《后会友期》也太搞笑了.md",
     "Diary/2026-10-31.md",
+    "Home.md",
+    "Diary/2026-11-02.md",
+    "Templates/new_diary.md",
+    "Diary/2026-11-01.md",
     "Diary/2026-11-03.md",
     "Diary/2026-11-10.md",
     "README.md",
