@@ -2,5 +2,6 @@
   "enabledCssSnippets": [
     "theme-gray-violet",
     "diary"
-  ]
+  ],
+  "theme": "system"
 }

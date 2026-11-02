@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "流水账日记.md",
                 "mode": "preview",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "流水账日记"
             }
           }
         ]
@@ -85,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c27b26c7b67e252d",
@@ -201,14 +202,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e234531e77649e79",
+  "active": "e5276da8bef75cb9",
   "lastOpenFiles": [
+    "Diary/2026-11-02 《后会友期》也太搞笑了.md",
+    "Templates/new_diary.md",
+    "流水账日记.md",
+    "Diary/2026-11-01.md",
+    "Diary/2026-10-31.md",
+    "Diary/2026-11-03.md",
+    "Diary/2026-11-10.md",
     "README.md",
     "<% tp.date.now(’YYYY-MM-DD‘) %>.md",
-    "Diary/2026-11-02.md",
-    "Home.md",
-    "Diary/2026-11-01.md",
-    "Templates/new_diary.md",
     "Untitled.md",
     "2026-11-02.md",
     "Diary/<% tp.date.now('YYYY-MM-DD') %>.md",
